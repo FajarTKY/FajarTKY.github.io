@@ -19,7 +19,14 @@ img{
     padding: 15px 10px;
     border-style:dotted;
     color:blueviolet;
-    margin: -30px 12px 12px 10px;
+    margin: 10px 12px 12px 10px;
+}
+
+.linkRecipes{
+    display: block;
+    box-sizing :border-box;
+    padding: 5px;
+    margin: 2px;
 }
 
 a:hover{
@@ -50,6 +57,12 @@ ul{
 .title-desctiption,
 .image-description{
     background: yellow;
+}
+
+.footer{
+    position:fixed;
+    bottom: 0;
+    right: 0;
 }
 
 #header.title-desctiption{
