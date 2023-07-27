@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background: palevioletred;
+    color:antiquewhite
+}
+
+.navbar{
+    height: 90px;
+    background: rgb(161, 67, 99);
+    font-weight: bolder;
+}
+
+.navbar .container .image-header {
+    width: 65px;
+    height: auto;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar .container ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar .container ul li {
+    display: flex;
+    margin-left: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+
+.header .container img {
+    width: 30%;
+    height: auto;
+}
+
+.boxes .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.boxes h2 {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: bolder;
+    justify-content: center;
+    border-top: 3px dashed #ccc;
+    border-bottom: 3px dashed #ccc;
+}
+
+.boxes .container .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    background: rgb(161, 67, 99);
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.boxes .container .box p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote-section {
+    background-color: rgb(143, 67, 80);
+  }
+  
+  .quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 25px;
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  
+  blockquote {
+    align-self: start;
+    font-size: 24px;
+    font-style: italic;
+    margin: 0;
+  }
+  
+  cite {
+    align-self: end;
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 18px;
+    align-items: end;
+  }
+
+.SignUp{
+    margin: 0 auto;
+    max-width: 936px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.SignUp img{
+    background: rgb(161, 67, 99);
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.SignUp .container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(161, 67, 99);
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    align-items: center;
+    padding: 27px;
+}
+
+  .call-me {
+    align-self: start;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .SignUp-button {
+    align-self: end;
+    font-style: normal;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    border: 2px solid #ccc;
+    background-color: transparent;
+    padding: 10px;
+    color: blanchedalmond;
+    border-radius: 10px;
+  }
