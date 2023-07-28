@@ -15,6 +15,7 @@ body{
     height: 90px;
     background: rgb(161, 67, 99);
     font-weight: bolder;
+    font-family: 'Pacifico', cursive;
 }
 
 .navbar .container .image-header {
@@ -55,6 +56,7 @@ body{
     font-size: 3rem;
     font-weight: bolder;
     line-height: 1.2;
+    font-family: 'Pacifico', cursive;
 }
 
 .header .container img {
@@ -77,6 +79,7 @@ body{
     justify-content: center;
     border-top: 3px dashed #ccc;
     border-bottom: 3px dashed #ccc;
+    font-family: 'Pacifico', cursive;
 }
 
 .boxes .container .box {
@@ -113,8 +116,8 @@ body{
   
   blockquote {
     align-self: start;
+    font-family: 'Pacifico', cursive;
     font-size: 24px;
-    font-style: italic;
     margin: 0;
   }
   
@@ -170,4 +173,5 @@ body{
     padding: 10px;
     color: blanchedalmond;
     border-radius: 10px;
+    font-family: 'Pacifico', cursive;
   }
